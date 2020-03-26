@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "ts-node implemented.ts"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@roboflow/tfrecords": "^1.0.1",
+    "@roboflow/tfrecords": "https://github.com/kazazes/TFRecords",
     "async": "^3.2.0",
     "lodash": "^4.17.15",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "jest": "^25.2.2"
+    "@types/node": "^12.12.31",
+    "jest": "^25.2.2",
+    "ts-node": "^8.8.1"
   }
 }
